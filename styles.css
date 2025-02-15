@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(https://fonts.google.com/specimen/Inter);
+}
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+*{
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    line-height: 1.5;
+    font-weight: 500;
+    font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+body {
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 8%);
+    padding: 30px 30px 5em;
+}
+main{
+    background-color: hsl(0, 0%, 12%);
+    padding: 20px 20px 30px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    max-height: 95vh;
+    min-height: 80vh;
+}
+@media only screen and (max-width: 375px){
+    main{
+        max-width: 99vw;
+        min-width: 85vw;
+    }
+}
+@media only screen and (min-width: 600px){
+    main{
+        max-width: 40vw;
+        min-width: 35vw;
+    }
+}
+@media screen and (min-width: 920px){
+    main{
+        max-width: 30vw;
+        min-width: 25vw;
+    }
+    
+}
+img{
+    height: 5em;
+    width: 5em;
+    margin: 1em auto;
+    border-radius: 5em;
+}
+h1{
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 0 auto;
+}
+h4{
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+}
+h4, p, button{
+    font-size: 14px;
+    margin: 0 auto;
+}
+p{
+    max-width: 90%;
+    min-width: 78%;
+    margin: 20px auto;
+    font-weight: 400;
+}
+a{
+    width: 90%;
+    color: hsl(228, 45%, 44%); 
+}
+button{
+    background-color: hsl(0, 0%, 20%);
+    height: 2.6em;
+    width: 99%;
+    font-weight: 500;
+    margin: 5px auto;
+    
+    &:hover, &:active{
+        background-color: hsl(75, 94%, 57%);
+        color: hsl(0, 0%, 12%);
+        font-weight: 600;
+        cursor: pointer;
+    }
+}
+footer {
+    font-size: 11px; 
+    text-align: center; 
+}
+
