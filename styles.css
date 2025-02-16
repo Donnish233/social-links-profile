@@ -29,8 +29,8 @@ main{
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    max-height: 95vh;
-    min-height: 80vh;
+    max-height: 75vh;
+    min-height: 60vh;
 }
 @media only screen and (max-width: 375px){
     main{
@@ -85,6 +85,7 @@ button{
     height: 2.6em;
     width: 99%;
     font-weight: 500;
+    margin: 2px auto;
     
     &:hover, &:active{
         background-color: hsl(75, 94%, 57%);
