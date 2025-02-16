@@ -85,7 +85,6 @@ button{
     height: 2.6em;
     width: 99%;
     font-weight: 500;
-    margin: 5px auto;
     
     &:hover, &:active{
         background-color: hsl(75, 94%, 57%);
