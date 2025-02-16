@@ -62,11 +62,11 @@ h1{
     font-weight: 600;
     margin: 0 auto;
 }
-h4{
+h2{
     color: hsl(75, 94%, 57%);
     font-weight: 600;
 }
-h4, p, button{
+h2, p, button{
     font-size: 14px;
     margin: 0 auto;
 }
